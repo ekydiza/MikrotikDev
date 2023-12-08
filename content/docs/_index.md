@@ -1,7 +1,7 @@
 ---
 weight: 10
 title: "Docs"
-description: "Explore our guides and examples to deploy your Hugo site using the Lotus Docs theme."
+description: "Temukan script Mikrotik yang kamu butuhkan untuk kebutuhanmu."
 icon: menu_book
 lead: ""
 date: 2022-10-10T02:21:15+00:00
