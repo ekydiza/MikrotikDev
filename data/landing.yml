@@ -15,13 +15,13 @@ hero:
     # pill: false # boolean
      # #soft: true # boolean
 
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+   titleLogo:
+  path: "images/logos"
+  filename: "title_logo.png"
+  alt: "Lotus Docs Logo"
+  height: 80px
 
-  title: "🛜 MikrotikDev"
+  title: "MikrotikDev"
   subtitle: Repository script Mikrotik RouterOS siap membantu produktivitasmu. Temukan *script* yang kamu butuhkan dengan **cepat** dan **mudah**.
 
   image:
