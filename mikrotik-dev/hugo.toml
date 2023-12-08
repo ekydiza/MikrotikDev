@@ -1,6 +1,6 @@
 baseURL = "/" # (or set via env variable HUGO_BASEURL)
 languageCode = "en-GB"
-title = "Lotus Docs | A Hugo Documentation Theme"
+title = "MikrotikDev - Repository Mikrotik RouterOS Script"
 # theme = "lotusdocs"
 contentDir = "content"
 enableEmoji = true
@@ -12,6 +12,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
 
 [module]
   # uncomment line below for temporary local development of module
+
   [module.hugoVersion]
     extended = true
     min = "0.100.0"
@@ -58,7 +59,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         # rss = true                     # show rss icon with link
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs"                        # default html title for documentation pages/sections
+        title           = "Mikrotik-Dev"                        # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path for documentation site | default "docs"
 
