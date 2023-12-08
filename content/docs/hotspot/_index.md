@@ -1,6 +1,6 @@
 ---
 weight: 1500
-title: "Hotspot — PPPoE — PPP"
+title: "Hotspot — PPPoE"
 description: "Temukan script Mikrotik yang kamu butuhkan."
 icon: "wifi"
 date: "2023-08-25T15:52:21+01:00"

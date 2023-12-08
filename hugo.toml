@@ -53,9 +53,9 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         version   = true # include git commit info in footer
 
     [params.social]
-        github = "colinwilson/lotusdocs" # github.com/YOUR_GITHUB_ID
-        twitter = "lotusdocs"            # twitter.com/YOUR_TWITTER_ID
-        # instagram = "colinwilson"      # instagram.com/YOUR_INSTAGRAM_ID
+        github = "0xprune" # github.com/YOUR_GITHUB_ID
+        twitter = "0xprune"            # twitter.com/YOUR_TWITTER_ID
+        # instagram = "0xprune"      # instagram.com/YOUR_INSTAGRAM_ID
         # rss = true                     # show rss icon with link
 
     [params.docs] # Parameters for the /docs 'template'
@@ -72,7 +72,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         # prismTheme      = "lotusdocs"                         # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
-        repoURL         = "https://github.com/colinwilson/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        repoURL         = "https://github.com/0xprune/MikrotikDev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
         repoBranch      = "release"                           # Name of your Git repository branch
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
@@ -117,11 +117,6 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         apiKey    = "fdc60eee76a72a35d739b54521498b77" # Algolia Search-Only API (Public) Key (or set env variable HUGO_PARAM_DOCSEARCH_apiKey)
         indexName = "dev_lotusdocs.dev"               # Index Name to perform search on (or set env variable HUGO_PARAM_DOCSEARCH_indexName)
 
-    [params.plausible] # Parameters for Plausible Analytics
-        dataDomain = "lotusdocs.dev" # (or set via env variable HUGO_PARAMS_PLAUSIBLE_dataDomain)
-        scriptURL  = "/docs/s/js/script.outbound-links.js"       # (or set via env variable HUGO_PARAMS_PLAUSIBLE_scriptURL)
-        eventAPI   = "/docs/s/api/event/"       # optional - (or set via env variable HUGO_PARAMS_PLAUSIBLE_eventAPI)
-
     [params.feedback]
         enabled = true
         emoticonTpl = true
@@ -131,7 +126,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         negativeEventName = "Negative Feedback"
         positiveFormTitle = "What did you like?"
         negativeFormTitle = "What went wrong?"
-        successMsg = "Thank you for helping to improve Lotus Docs' documentation!"
+        successMsg = "Thank you for helping to improve MikrotikDev' documentation!"
         errorMsg = "Sorry! There was an error while attempting to submit your feedback!"
         positiveForm = [
           ["Accurate", "Accurately describes the feature or option."],
@@ -160,7 +155,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
 #     weight = 20
 
 [[menu.primary]]
-    name  = "Community"
-    url = "https://github.com/colinwilson/lotusdocs/discussions"
-    identifier = "community"
+    name  = "Contact"
+    url = "https://twitter.com/0xprune"
+    identifier = "contact"
     weight = 30
