@@ -1,0 +1,6 @@
+[submodule "0xprune-xyz/themes/Kamigo"]
+	path = 0xprune-xyz/themes/Kamigo
+	url = https://github.com/hiiruki/hugo-Kamigo.git
+[submodule "ekydiza-site/themes/hello-friend-ng"]
+	path = ekydiza-site/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
