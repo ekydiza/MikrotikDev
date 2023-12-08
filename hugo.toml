@@ -1,6 +1,6 @@
 baseURL = "/" # (or set via env variable HUGO_BASEURL)
 languageCode = "en-GB"
-title = "MikrotikDev - Repository Mikrotik RouterOS Script"
+title = "MikrotikDev - Repository Mikrotik RouterOS"
 # theme = "lotusdocs"
 contentDir = "content"
 enableEmoji = true
@@ -53,8 +53,8 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         version   = true # include git commit info in footer
 
     [params.social]
-        github = "colinwilson/lotusdocs" # github.com/YOUR_GITHUB_ID
-        twitter = "lotusdocs"            # twitter.com/YOUR_TWITTER_ID
+        github = "https://github.com/0xprune/" # github.com/YOUR_GITHUB_ID
+        twitter = "prune0x"            # twitter.com/YOUR_TWITTER_ID
         # instagram = "colinwilson"      # instagram.com/YOUR_INSTAGRAM_ID
         # rss = true                     # show rss icon with link
 

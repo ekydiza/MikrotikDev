@@ -12,7 +12,7 @@ toc: true
 
 ---
 
-**PPP > Profiles > Name Profile1 (New Profile) > Scripts > On Up:** 
+**Step: PPP > Profiles > Name Profile1 (New Profile) > Scripts > On Up:** 
 
 ```
 :local createRoute do={
@@ -47,7 +47,7 @@ toc: true
 ```
 
 
-**PPP > Profiles > Name Profile1 (New Profile) > Scripts > On Down:**
+**Step: PPP > Profiles > Name Profile1 (New Profile) > Scripts > On Down:**
 
 ```
 :local removeRoute do={ 

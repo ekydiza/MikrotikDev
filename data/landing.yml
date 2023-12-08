@@ -18,11 +18,13 @@ hero:
   titleLogo:
     path: "images/logos"
     filename: "title_logo.png"
-    alt: "Lotus Docs Logo"
+    alt: "MikrotikDevLogo"
     height: 80px
 
   title: "MikrotikDev"
   subtitle: Repository script Mikrotik RouterOS siap membantu produktivitasmu. Temukan *script* yang kamu butuhkan dengan **cepat** dan **mudah**.
+
+  info: "**Open Source** MIT Licensed."
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -36,9 +38,9 @@ hero:
     btnText: "Get Started"
     url: "/docs/"
   cta2Button:
-    icon: lamp
+    icon: book
     btnText: "Contribution"
-    url: "https://github.com/colinwilson/lotusdocs"
+    url: "https://github.com/0xprune/MikrotikDev"
 
 # Feature Grid
 featureGrid:

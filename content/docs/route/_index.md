@@ -1,8 +1,8 @@
 ---
 weight: 1500
-title: "Hotspot — PPPoE"
+title: "Route"
 description: "Temukan script Mikrotik yang kamu butuhkan."
-icon: "wifi"
+icon: "route"
 draft: false
 toc: true
 ---
