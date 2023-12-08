@@ -3,8 +3,8 @@ weight: 350
 title: "Preventing Brute Force Attack"
 description: ""
 icon: "wifi"
-date: "2023-12-11T20:43:23+01:00"
-lastmod: "2023-12-11T20:43:23+01:00"
+date: "2023-12-10T20:43:23+01:00"
+lastmod: "2023-12-10T20:43:23+01:00"
 aliases:
     - ../guides/security
 draft: false
