@@ -21,8 +21,8 @@ hero:
   #   alt: "Lotus Docs Logo"
   #   height: 80px
 
-  title: "🛜 Mikrotik-Dev"
-  subtitle: Repository script Mikrotik RouterOS siap membantu produktivitasmu, temukan script yang kamu butuhkan dengan ***cepat*** dan ***mudah***.
+  title: "🛜 MikrotikDev"
+  subtitle: Repository script Mikrotik RouterOS siap membantu produktivitasmu. Temukan *script* yang kamu butuhkan dengan **cepat** dan **mudah**.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
