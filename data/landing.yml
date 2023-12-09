@@ -43,15 +43,15 @@ hero:
     url: "https://github.com/0xprune/MikrotikDev"
 
 # Feature Grid
-coolAppFeatures:
-  enable: true
+features:
+  enable: false
   weight: 20
   template: feature grid
 
   title: Mengapa memilih Mikrotik-Dev?
   subtitle: wdwd configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 # Image Compare
-imageCompare:
+image_compare:
   enable: false
   weight: 30
  # template: image compare
