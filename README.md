@@ -20,7 +20,7 @@ MikrotikDev merupakan repository berisikan kumpulan script-script Mikrotik Route
 🧑🏻‍💻 Tech stack: 
 MikrotikDev dibangun menggunakan 
 
-> **Hugo, Bootstrap 5, JS, Netlify [Lotus Docs](https://github.com/colinwilson/lotusdocs)**
+> **Hugo, Bootstrap 5, JS, Netlify, [Lotus Docs](https://github.com/colinwilson/lotusdocs)**
 
 
 <p></p>
