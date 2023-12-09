@@ -26,4 +26,4 @@ add action=drop chain=prerouting dst-port=53 in-interface=!pppoe-out1 protocol=u
 ```
 
 after that,
-> IP > DNS and disable “Allow Remote Requests”
+>> IP > DNS and disable “Allow Remote Requests”
