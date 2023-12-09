@@ -40,7 +40,7 @@ hero:
   cta2Button:
     icon: book
     btnText: "Contribution"
-    url: "https://github.com/0xprune/MikrotikDev"
+    url: https://github.com/0xprune/MikrotikDev
 
 # Feature Grid
 features:
