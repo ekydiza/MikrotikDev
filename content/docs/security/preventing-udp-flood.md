@@ -12,6 +12,12 @@ toc: true
 
 ---
 
+## Overview
+UDP flood on MikroTik refers to a type of cyber attack where the User Datagram Protocol (UDP) is exploited to overwhelm and flood a MikroTik device with a large volume of UDP packets. UDP flood attacks aim to saturate the target's network bandwidth, causing congestion and disrupting normal operations. Unlike TCP, UDP is connectionless and does not establish a session before transmitting data, making it susceptible to abuse. Attackers often use various techniques to generate and send a massive number of UDP packets to the target, leading to network degradation or even service unavailability. 
+
+
+## Steps
+
 ```
 /ip firewall raw
 add action=drop chain=prerouting comment="Preventing UDP Flood Attack" dst-port=53 in-interface=pppoe-out1 protocol=udp
@@ -19,4 +25,5 @@ add action=accept chain=prerouting dst-port=53 in-interface=!pppoe-out1 limit=10
 add action=drop chain=prerouting dst-port=53 in-interface=!pppoe-out1 protocol=udp
 ```
 
-**Step:** IP > DNS dan disable *"Allow Remote Requests"*
+after that,
+> IP > DNS and disable “Allow Remote Requests”
