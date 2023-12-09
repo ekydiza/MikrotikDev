@@ -1,6 +1,6 @@
 ---
 weight: 350
-title: "Auto Backup Config"
+title: "Auto Backup Config to Email"
 description: ""
 icon: "robot"
 date: "2023-08-26T20:43:23+01:00"
@@ -13,6 +13,7 @@ toc: true
 ---
 
 ### Backup dengan type file .backup
+<p></p>
 ```
 :local identity [/system identity get name]
 :local date [/system clock get date] 
@@ -40,6 +41,7 @@ toc: true
 <p></p>
 
 ### Backup dengan type file .rsc
+<p></p>
 ```
 :local identity [/system identity get name]
 :local date [/system clock get date] 

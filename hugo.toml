@@ -1,27 +1,31 @@
-baseURL = "/" # (or set via env variable HUGO_BASEURL)
-languageCode = "en-GB"
-title = "MikrotikDev - Repository Mikrotik RouterOS"
-# theme = "lotusdocs"
-contentDir = "content"
-enableEmoji = true
-enableGitInfo = true # N.B. .GitInfo does not currently function with submodule content directories
-# googleAnalytics = "G-VXQVVP7V8K" # (or set via env variable HUGO_GOOGLEANALYTICS)
+name = "MikrotikDev"
+license = "MIT"
+licenselink = "https://github.com/0xprune/MikrotikDev?tab=MIT-1-ov-file"
+description = "MikrotikDev merupakan repository script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer."
+homepage = "https://mikrotikdev.netlify.app/"
+tags = ["blog", "mikrotik"]
+features = [""]
 
-[build]
-  noJSConfigInAssets = true
+[author]
+    name = "Eky"
 
 [module]
+
+
   # uncomment line below for temporary local development of module
 
-  [module.hugoVersion]
-    extended = true
-    min = "0.100.0"
+ # [module.hugoVersion]
+ #   extended = true
+ #   min = "0.100.0"
   [[module.imports]]
     path = "github.com/colinwilson/lotusdocs"
     disable = false
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
     disable = false
+  
+[build]
+  noJSConfigInAssets = true
 
 [markup]
     [markup.tableOfContents]

@@ -1,0 +1,12 @@
+[module]
+  # uncomment line below for temporary local development of module
+
+ # [module.hugoVersion]
+ #   extended = true
+ #   min = "0.100.0"
+  [[module.imports]]
+    path = "github.com/colinwilson/lotusdocs"
+    disable = false
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+    disable = false

@@ -9,16 +9,16 @@ hero:
       desktop: "gradient-desktop.webp"
       mobile: "gradient-mobile.webp"
 
-  # badge:
-    # text: v0.1.0
-    # # color: primary # primary, secondary, success, danger, warning, info, light, dark
-    # pill: false # boolean
-     # #soft: true # boolean
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
 
   titleLogo:
-    path: "images/logos"
-    filename: "title_logo.png"
-    alt: "MikrotikDevLogo"
+    path: ""
+    filename: "favicon.ico"
+    alt: "MikrotikDev Logo"
     height: 80px
 
   title: "MikrotikDev"
@@ -27,11 +27,11 @@ hero:
   info: "**Open Source** MIT Licensed."
 
   image:
-    path: "images/templates/hero" # path to image under configured assets directory. default 'images'
-    filename: "screenshot.png" # filename of your hero image (including file extension)
-    alt: "MikrotikDev" # Optional but recommended
-    boxShadow: true # default 'false' (excludes .svg images)
-    rounded: true # round the image corners? default 'false' (excludes .svg images)
+    path: "images" #
+    filename: "screenshot.png" # 
+    alt: "MikrotikDev" 
+    boxShadow: true #
+    rounded: true # 
 
   ctaButton:
     icon: rocket_launch
@@ -46,83 +46,36 @@ hero:
 features:
   enable: enable
   weight: 20
-  template: feature grid
+  template: featuregrid
 
   title: Mengapa memilih Mikrotik-Dev?
-  subtitle: MikrotikDev merupakan repository script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer.
+  subtitle: MikrotikDev menyediakan berbagai berbagai feature yang harus kamu cobain.
   items:
-    - title: Fast # 4
-      icon: speed # 3
-      description: Temukan script yang kamu butuhkan dengan cepat dan tanpa batas. # 5
-      ctaLink: # 6
-        text: learn more
-        url: /docs/
+    - title: Fast
+      icon: speed 
+      description: Temukan script yang kamu butuhkan dengan cepat dan tanpa batas. 
 
-    - title: Gratis
+    - title: Free
       icon: trending_up
       description: Semua script bisa kamu dapatkan secara bebas dan gratis.
-      ctaLink:
-        text: learn more
-        url: /docs/
+
+    - title: Simple 
+      icon: palette
+      description: Tampilan yang sederhana membuat kamu tidak bingung saat mengakses.
 
     - title: Search by DocSearch
       icon: search
-      description: Fitur search yang powerfull memudahkan kamu dalam mencari script yang kamu butuhkan.
+      description: Fitur search yang powerfull memudahkan kamu dalam mencari script.
+
+    - title: Dark Mode
+      icon: dark_mode
+      description: "Ada pilihan dark mode yang membuat mata kamu tetap nyaman."
+
+    - title: Multilingual Support
+      icon: translate
+      description: Kamu juga bisa menemukan konten dalam bahasa Inggris dan Bahasa Indonesia.
+      
 # Image Compare
 image_compare:
   enable: false
-  weight: 30
- # template: image compare
-
- #  title: Customise The Lotus Docs Appearance
-  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
-
-  items:
-    - title: Dark Mode
-      config: {
-        startingPoint: 50,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Dark',
-          after: 'Light',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_dark_v0.8.webp"
-      imageAfter: "lotusdocs_light_v0.8.webp"
-
-    - title: Custom Fonts
-      config: {
-        controlColor: "#3C4257",
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Inter',
-          after: 'Life Saver',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
-      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
-
-    - title: Accent Color
-      config: {
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: true,
-        showLabels: true,
-        labelOptions: {
-          before: 'Blue',
-          after: 'Cardinal',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_blue_theme_colour.webp"
-      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
+ 
