@@ -27,7 +27,7 @@ hero:
   info: "**Open Source** MIT Licensed."
 
   image:
-    path: "images" # path to image under configured assets directory. default 'images'
+    path: "images/templates/hero" # path to image under configured assets directory. default 'images'
     filename: "screenshot.png" # filename of your hero image (including file extension)
     alt: "MikrotikDev" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
@@ -49,7 +49,25 @@ features:
   template: feature grid
 
   title: Mengapa memilih Mikrotik-Dev?
-  subtitle: 
+  subtitle: MikrotikDev merupakan repository script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer.
+  items:
+    - title: Fast # 4
+      icon: speed # 3
+      description: Temukan script yang kamu butuhkan dengan cepat dan tanpa batas. # 5
+      ctaLink: # 6
+        text: learn more
+        url: /docs/
+
+    - title: Gratis
+      icon: trending_up
+      description: Semua script bisa kamu dapatkan secara bebas dan gratis.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Search by DocSearch
+      icon: search
+      description: Fitur search yang powerfull memudahkan kamu dalam mencari script yang kamu butuhkan.
 # Image Compare
 image_compare:
   enable: false

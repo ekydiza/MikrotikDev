@@ -53,7 +53,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
         version   = true # include git commit info in footer
 
     [params.social]
-        github = "https://github.com/0xprune/" # github.com/YOUR_GITHUB_ID
+        github = "0xprune" # github.com/YOUR_GITHUB_ID
         twitter = "prune0x"            # twitter.com/YOUR_TWITTER_ID
         # instagram = "ekydiza"      # instagram.com/YOUR_INSTAGRAM_ID
         # rss = true                     # show rss icon with link
