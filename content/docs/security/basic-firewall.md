@@ -10,12 +10,12 @@ aliases:
 draft: false
 toc: true
 ---
-## Overview
+### Overview
 This is a basic firewall that can be applied to any Router.
 This script has basic rules to protect your router and avoid some unnecessary forwarding traffic. Pay attention for all comments before apply each DROP rules.
 
 
-## Steps
+### Steps
 First we need to create our ADDRESS LIST with all IPs we will use most times
 
 Below you need to change x.x.x.x/x for your technical subnet. This subnet will have full access to the router.
