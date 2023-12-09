@@ -26,12 +26,12 @@ hero:
 
   info: "**Open Source** MIT Licensed."
 
-  # image:
-   #  path: "images" # path to image under configured assets directory. default 'images'
-  #   filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
-  #   alt: "Lotus Docs Screenshot" # Optional but recommended
-  #   boxShadow: true # default 'false' (excludes .svg images)
-   #  rounded: true # round the image corners? default 'false' (excludes .svg images)
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "screenshot.png" # filename of your hero image (including file extension)
+    alt: "MikrotikDev" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
     icon: rocket_launch
@@ -44,12 +44,12 @@ hero:
 
 # Feature Grid
 features:
-  enable: false
+  enable: enable
   weight: 20
   template: feature grid
 
   title: Mengapa memilih Mikrotik-Dev?
-  subtitle: wdwd configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+  subtitle: 
 # Image Compare
 image_compare:
   enable: false
