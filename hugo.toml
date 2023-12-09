@@ -1,5 +1,4 @@
-title = "MikrotikDev"
-robots = "index"
+title = "MikrotikDev — Repository Mikrotik RouterOS"
 license = "MIT"
 licenselink = "https://github.com/0xprune/MikrotikDev?tab=MIT-1-ov-file"
 description = "MikrotikDev merupakan repository script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer."
