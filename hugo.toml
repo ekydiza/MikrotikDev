@@ -1,4 +1,6 @@
+title = "MikrotikDev"
 name = "MikrotikDev"
+robots = "index"
 license = "MIT"
 licenselink = "https://github.com/0xprune/MikrotikDev?tab=MIT-1-ov-file"
 description = "MikrotikDev merupakan repository script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer."
@@ -6,14 +8,10 @@ homepage = "https://mikrotikdev.netlify.app/"
 tags = ["blog", "mikrotik"]
 features = [""]
 
-[author]
+[params.author]
     name = "Eky"
 
 [module]
-
-
-  # uncomment line below for temporary local development of module
-
  # [module.hugoVersion]
  #   extended = true
  #   min = "0.100.0"
