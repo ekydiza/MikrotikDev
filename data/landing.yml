@@ -16,8 +16,8 @@ hero:
     soft: true # boolean
 
   titleLogo:
-    path: ""
-    filename: "favicon.ico"
+    path: "images"
+    filename: "logo.png"
     alt: "MikrotikDev Logo"
     height: 80px
 

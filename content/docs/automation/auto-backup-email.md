@@ -13,7 +13,7 @@ toc: true
 ---
 
 ### Backup dengan type file .backup
-<p></p>
+
 ```
 :local identity [/system identity get name]
 :local date [/system clock get date] 
@@ -38,10 +38,10 @@ toc: true
 /file remove $filename
 ```
 
-<p></p>
+
 
 ### Backup dengan type file .rsc
-<p></p>
+
 ```
 :local identity [/system identity get name]
 :local date [/system clock get date] 
