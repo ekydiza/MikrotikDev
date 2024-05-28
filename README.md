@@ -1,7 +1,7 @@
 <h1 align="center">🛜 MikrotikDev</h1>
 <p></p>
 
-<h4 align="center">MikrotikDev merupakan repository berisikan kumpulan script-script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer. Dibangun menggunakan Hugo dan Bootstrap 5</h4>
+<h4 align="center">MikrotikDev is a repository containing a collection of Mikrotik RouterOS scripts designed to enhance your productivity as a Network Engineer. Built using Hugo and Bootstrap 5.</h4>
 
 <p></p>
 
@@ -15,18 +15,22 @@
 <p></p>
 
 <h2 id="about">🌠 About</h2>
-MikrotikDev merupakan repository berisikan kumpulan script-script Mikrotik RouterOS yang berguna untuk membantu produktivitas kamu sebagai Network Engineer. Kamu dapat menemukan script yang kamu butuhkan dengan cepat dan mudah.
+MikrotikDev is a repository of Mikrotik RouterOS scripts designed to help boost your productivity as a Network Engineer. You can find the scripts you need quickly and easily.
 <p></p>
 🧑🏻‍💻 Tech stack: 
-MikrotikDev dibangun menggunakan 
+MikrotikDev is built using:
 
-> **Hugo, Bootstrap 5, JS, Netlify, [Lotus Docs](https://github.com/colinwilson/lotusdocs)**
+- Hugo
+- Bootstrap 5
+- JavaScript
+- Netlify
+- Lotus Docs
 
 
 <p></p>
 
 <h2 id="contribution">🎨 Contribution</h2>
-Contributions script mikrotik lainnya sangat saya apresiasi karena aplikasi ini jauh dari kata sempurna. Jangan ragu untuk pull request dan membuat perubahan pada project ini.
+Contributions of additional Mikrotik scripts are greatly appreciated as this application is far from perfect. Feel free to submit a pull request and make changes to this project.
 
 ### 🎇 Thanks to:
 [BuananetPbun](https://github.com/buananetpbun)<p></p>
@@ -36,7 +40,7 @@ Contributions script mikrotik lainnya sangat saya apresiasi karena aplikasi ini 
 
 <p></p>
 <h2 id="license">📝 License</h2>
-MikrotikDev adalah aplikasi web open-source yang berlisensi dibawah lisensi MIT
+MikrotikDev is an open-source web application licensed under the MIT License.
 
 ---
 
